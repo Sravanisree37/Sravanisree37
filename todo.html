@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To-Do List</title>
+        <link rel="stylesheet" href="todo.css">
+        <script src="todo.js"></script>
+    </head>
+    <body>
+        <h1>TO-DO List</h1>
+            <span style="color: rgb(121, 100, 142);">Enter the items in the textbox to get added to the list.</span>
+            <br><br><span style="color:rgb(66, 114, 66)">Click the items to mark it as complete.</span>
+            <br><br><span style="color:rgb(161, 85, 85)">Click on "X" to remove item </span>
+            <br><br>
+            
+                <input type="text" class="box" id="inputfield" placeholder="New item....."  onkeydown="handleKeyPress(event)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<!--The function handleKeyPress(event) is used to add the element when hit "enter"on keyboard, that function triggers additem() function -->
+                <button type="button"  onclick="addItem()">Submit</button><br><br><br><br>
+            
+            <!--This function additem() adds elements after clicking on submit button  -->
+            <div id="listContainer"></div>
+            <!-- This id is used to display elements (look for explanation in js file) --> 
+        
+    </body>
+</html>
+

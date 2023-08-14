@@ -1,0 +1,16 @@
+/*The variable demoElement is assigned the element with the id "demo" using document.getElementById("demo").
+  The value of inputValue is then assigned to the innerHTML property of demoElement.
+  the below code is only for one single input to be dispalyed on the page
+  var demoElement=document.getElementById("demo");
+  demoElement.innerHTML=inputValue;*/
+
+  /* In the line listItem.classList.add("list-item"), classList is a property of an element that represents a collection of the element's CSS classes. The add() method of the classList property is used to add a CSS class to the element.*/
+  /* var listItem = document.createElement("p");: This line creates a new <p> element using document.createElement.
+   This new element will be used to display the entered value.
+  listItem.innerText = inputValue;: This line assigns the value of inputValue to the innerText property of the listItem element.
+   It sets the text content of the <p> element to the entered value.
+  
+  var listContainer = document.getElementById("listContainer");: This line retrieves the element with the id "listContainer" from the HTML page. 
+  It will serve as the container for the list items.
+  listContainer.appendChild(listItem);: This line appends the listItem element (the new <p> element with the entered value) as a child to the listContainer element.
+  This adds the new item to the list, displaying it on the webpage within the container.*/
